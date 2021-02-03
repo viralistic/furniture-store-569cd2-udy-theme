@@ -1,0 +1,218 @@
+{
+  "47502993": {
+    "collection": "post",
+    "query": {
+      "offset": 0,
+      "limit": 2,
+      "fields": [
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "7a6d53bb": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 1,
+      "fields": [
+        {
+          "fieldPath": "featured",
+          "operatorName": "eq",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "3259c13c": {
+    "collection": "product",
+    "query": {
+      "offset": 1,
+      "limit": 1,
+      "fields": [
+        {
+          "fieldPath": "featured",
+          "operatorName": "eq",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "2f67365c": {
+    "collection": "product"
+  },
+  "210eab88": {
+    "collection": "post",
+    "query": {
+      "offset": 0,
+      "limit": 1,
+      "fields": [
+        {
+          "fieldPath": "featured",
+          "operatorName": "eq",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "-308b7d27": {
+    "collection": "post",
+    "query": {
+      "offset": 0,
+      "limit": 2,
+      "sort": [
+        "created-on"
+      ]
+    }
+  },
+  "-3b8bf079": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "-6250c9b9": {
+    "collection": "category"
+  },
+  "-3cb09af7": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 15,
+      "fields": [
+        {
+          "fieldPath": "category",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "219e2efb": {
+    "collection": "product",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "6516b659": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 1,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Bola Disc"
+        }
+      ]
+    }
+  },
+  "359b064c": {
+    "collection": "category",
+    "query": {
+      "offset": 0,
+      "limit": 3
+    }
+  },
+  "68b8728c": {
+    "collection": "product",
+    "query": {
+      "sort": [
+        "created-on"
+      ]
+    }
+  },
+  "754bd5aa": {
+    "collection": "post",
+    "query": {
+      "offset": 1,
+      "limit": 2
+    }
+  },
+  "-6c926854": {
+    "collection": "post",
+    "query": {
+      "offset": 0,
+      "limit": 1
+    }
+  },
+  "-6c910b37": {
+    "collection": "post",
+    "query": {
+      "offset": 0,
+      "limit": 4
+    }
+  },
+  "3d623304": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 2,
+      "fields": [
+        {
+          "fieldPath": "category",
+          "operatorName": "idin",
+          "value": "category/wall-ceiling.md"
+        }
+      ]
+    }
+  },
+  "-7e0cb9f4": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 15
+    }
+  },
+  "-2478b182": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 1,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Uma Mini"
+        }
+      ]
+    }
+  },
+  "12a9e9b9": {
+    "collection": "product",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Uma Mini"
+        }
+      ]
+    }
+  },
+  "-6727480a": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 4
+    }
+  }
+}
