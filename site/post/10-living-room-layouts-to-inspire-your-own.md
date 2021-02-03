@@ -8,13 +8,13 @@ post-summary: POST SUMMARYPOST SUMMARYPOST SUMMARYPOST SUMMARYPOST SUMMARYPOST
   SUMMARYPOST SUMMARYPOST SUMMARYPOST SUMMARYPOST SUMMARYPOST SUMMARYPOST
   SUMMARYPOST SUMMARYPOST SUMMARYPOST SUMMARY
 main-image:
-  url: https://uploads-ssl.webflow.com/601abbb55382a97ca0bbb853/601abbb55382a9c978bbba89_circafloor_pedestal_env_72_download_download.jpg
+  url: /static/images/Avatar-6.jpg
   alt: ""
 thumbnail-image:
-  url: https://uploads-ssl.webflow.com/601abbb55382a97ca0bbb853/601abbb55382a9c978bbba89_circafloor_pedestal_env_72_download_download.jpg
+  url: /static/images/Avatar-4-p-130x130q80.jpeg
   alt: ""
 featured: false
-author: Tom Jordan
+author: marral kr
 category: News
 name: Naam van de blog post
 created-on: 2019-08-30T08:38:00.755Z
