@@ -16,7 +16,7 @@ thumbnail-image:
 featured: false
 author: Tom Jordan
 category: News
-name: 10 Living Room Layouts to Inspire Your Own
+name: Naam van de blog post
 created-on: 2019-08-30T08:38:00.755Z
 slug: 10-living-room-layouts-to-inspire-your-own
 updated-on: 2019-09-25T15:54:17.984Z
