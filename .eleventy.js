@@ -1,22 +1,32 @@
+const markdownIt = require("markdown-it");
 
-      const filters = require('./_utils/filters.js');
+    // Add within your config module
+    const md = new markdownIt({
+    html: true,
+    });
+            
+
+      const createCollectionsAndFilters = require('./_utils/index.js');
       
       module.exports = function(eleventyConfig) {
 
-        function priceTemplate(amount, currencyCode) {
-            return `$ ${amount} USD`;
-        }
+        eleventyConfig.addFilter("markdown", (content) => {
+            if (typeof content == "string") {
+                return md.render(content);
+              }
+              return content;
+          });
+               
+        eleventyConfig.addPassthroughCopy({"theme/assets": "assets"});
 
-        filters(eleventyConfig, {"decimal":".","fractionDigits":2,"group":",","hideDecimalForWholeNumbers":false,"symbol":"$","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","currencyCode":"USD"}, priceTemplate);
-
-        eleventyConfig.addPassthroughCopy("static/**");
-
-        eleventyConfig.addPassthroughCopy("admin/**");
+        eleventyConfig.addPassthroughCopy("admin");
+        
+        createCollectionsAndFilters(eleventyConfig);
         
         return {
           dir: {
-            input: "site",
-            includes: "_views",
+            input: "cms",
+            includes: "../theme",
             output: "public"
           }
         };
